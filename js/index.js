@@ -3,7 +3,7 @@
  * @param {number} searchYear
  */
 const getYear = (years, searchYear) => {
-  // your code
+  return years.find((year) => year === searchYear) ? searchYear : undefined;
 };
 
 // Sample usage - do not modify
